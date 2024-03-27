@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <title>ComIT - TP Final</title>
+    <link rel="shortcut icon" href="./assets/imgs/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="./assets/imgs/logo-comit 1.png" alt="logo-comIT">
+        </div>
+
+        <div class="nav-bar">
+            <a href="#section-top">¿Que aprendí?</a>
+            <a href="#ninja-js">Ninja JS</a>
+            <a href="./sobre-mi/sobre-mi.html" target="_blank">Sobre mí</a>
+        </div>
+    </header>
+
+    <button id="btnScrollTop" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+    
+    <section class="hero">
+        <div class="hero_container">
+            <div class="hero-text_container">
+                <h1 class="hero-text black-brown">Hola, soy <br> <strong>Cristian <br> Gabriel Ortiz</strong></h1>
+                
+                <p class="parrafo brown-dark">Y terminé el curso de <br> ComunidadIT <br>  Introduccion al Desarrollo Web <br></p>
+            </div>
+
+            <div class="hero-image_container">
+                <img src="./assets/imgs/imagenPNG.png" alt="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="items" id="section-top">
+        <div class="items_container">
+            <div class="items-title_container">
+                <h1 class="encabezado">¿Que aprendí?</h1>
+
+                <p class="parrafo">Durante el curso he estudiado lo siguiente</p>
+            </div>
+
+            <div class="items-cards_container">
+                <div class="item-card">
+                    <div class="item-card_img">
+                        <img src="./assets/imgs/IMG-HTML.png" alt="">
+                    </div>
+
+                    <div class="item-card_text">
+                        <h2 class="titulo2">HTML</h2>
+
+                        <p class="parrafo black-brown">HTML, acrónimo en inglés de HyperText Markup Language («lenguaje de marcado de hipertexto»), hace referencia al <a href="https://es.wikipedia.org/wiki/Lenguaje_de_marcado">lenguaje de marcado</a> utilizado en la creación de <a href="https://es.wikipedia.org/wiki/P%C3%A1gina_web">páginas web</a>.</p>
+                    </div>
+                </div>
+
+                <div class="item-card reverse">
+                    <div class="item-card_text">
+                        <h2 class="titulo2">CSS</h2>
+                        
+                        <p class="parrafo black-brown">CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_gr%C3%A1fico">diseño gráfico</a> para definir y crear la presentación de un documento estructurado escrito en un <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_gr%C3%A1fico">lenguaje de marcado</a><a href="https://es.wikipedia.org/wiki/CSS#cite_note-2">.2</a></p>
+                    </div>
+
+                    <div class="item-card_img">
+                        <img src="./assets/imgs/IMG-CSS.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="item-card">
+                    <div class="item-card_img">
+                        <img src="./assets/imgs/IMG-JS.png" alt="">
+                    </div>
+
+                    <div class="item-card_text">
+                        <h2 class="titulo2">Javascript</h2>
+
+                        <p class="parrafo black-brown">JavaScript (abreviado comúnmente JS) es un <a href="https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n">lenguaje de programación</a> <a href="">interpretado</a>, dialecto del estándar <a href="https://es.wikipedia.org/wiki/ECMAScript">ECMAScript</a>. Se define como <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos">orientado a objetos</a><a href="https://es.wikipedia.org/wiki/JavaScript#cite_note-2">.2</a> <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_basada_en_prototipos">basado en prototipos</a>, imperativo, <a href="https://es.wikipedia.org/wiki/Tipado_fuerte#Lenguajes_no_tipados">débilmente tipado</a> y <a href="https://es.wikipedia.org/wiki/Tipado_din%C3%A1mico">dinámico</a>.</p>
+                    </div>
+                </div>
+
+                <div class="item-card reverse">
+                    <div class="item-card_text">
+                        <h2 class="titulo2">UX/UI</h2>
+                        
+                        <p class="parrafo black-brown">El diseño <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_de_experiencia_de_usuario">UX</a>/<a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_de_experiencia_de_usuario">UI</a> es la disciplina de crear productos digitales que sean simples, intuitivos, eficientes y visualmente atractivos para el usuario final.</p>
+                    </div>
+
+                    <div class="item-card_img">
+                        <img src="./assets/imgs/IMG-UX-UI.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ninja-js" id="ninja-js">
+        <div class="ninja-js_container">
+            <div class="ninja-js_title">
+                <h1 class="encabezado">Ninja JS</h1>
+            </div>
+
+            <form class="ninja-js_form">
+
+                <div class="ninja-js_frame1">
+                    <h2 class="titulo2">Ingresa 2 numeros y observa la magia</h2>
+
+                    <div class="ninja-js_inputs">
+                        <label id="input1" class="input">
+                            <h3 class="parrafo">Número 1(A)</h3>
+                            <input type="number" id="numero1" placeholder="Ingresa un número">
+                        </label>
+
+                        <label id="input2" class="input">
+                            <h3 class="parrafo">Número 2(N)</h3>
+                            <input type="number" id="numero2" placeholder="Ingresa otro número">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="oculto" id="resultado">
+                    <h2 class="titulo2">Tu Resultado es: <span id="result"></span></h2>
+                </div>
+
+                <div class="ninja-js_btns">
+                    <button id="sumar" class="btn" onclick="mostrarElemento(), printResult()">Sumar</button>
+                    <button id="restar" class="btn" onclick="mostrarElemento(), printResult2()">Restar</button>
+                    <button id="buscar-el-mayor" class="btn" onclick="mostrarElemento(), printResult3()">Buscar el Mayor</button>
+                    <button id="ver-a-n-veces" class="btn" onclick="mostrarElemento(), printResult4()">Ver A, N veces</button>
+                </div>
+            </form>
+        </div>
+    </section>
+   
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/88b4bc9031.js" crossorigin="anonymous"></script>
+</body>
+</html>
