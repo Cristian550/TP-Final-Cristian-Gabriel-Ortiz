@@ -243,7 +243,7 @@ header{
 }
 
 .ninja-js_title{
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 10px;
     text-align: center;
@@ -408,6 +408,11 @@ input{
         align-items: center; 
     }
 
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+
     .nav-bar{
         width: 100%;
         height: auto;
@@ -461,7 +466,7 @@ input{
     }
 
     .hero-image_container img{
-        width: 562px;
+        width: 100%;
         height: auto;
     }
     
